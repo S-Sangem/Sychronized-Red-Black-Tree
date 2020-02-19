@@ -1,0 +1,35 @@
+Test case1:
+
+45b,1b,f,34r,f,f,97b,f,110r,f,f
+
+Search threads: 3
+Modify threads: 4
+
+search(1) || delete(97) || insert(80) || insert(85) || search(80)
+
+Test case2:
+
+160b,26b,f,f,167b,163r,f,f,177r,f,f
+
+Search threads: 2
+Modify threads: 3
+
+search(163) || insert(24) || insert(162) || delete(177) || search(167)
+
+Test case3:
+
+132b,64b,40r,f,f,92r,f,f,164r,150b,f,161r,f,f,188b,179r,f,f,190r,f,f
+
+Search threads: 4
+Modify threads: 6
+
+search(92) || search(188) || insert(56) || insert(100) || delete(56) || insert(200) || insert(150) || search(100)
+
+Test case4:
+
+107b,53r,46b,18r,f,f,f,81b,f,f,152r,124b,f,f,191b,155r,f,f,200r,f,f
+
+Search threads: 8
+Modify threads: 10
+
+insert(22)  || insert(30) || insert(50) || delete(191) || delete(50) || insert(250) || insert(150) || search(191) || search(81) || delete(124)

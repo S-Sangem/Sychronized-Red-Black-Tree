@@ -1,0 +1,8 @@
+Concurrent Red-Black Trees
+
+My project can correctly read, search, insert, and delete red black trees
+It can also concurrently do some tasks
+
+Compile with make and run with ./rbt
+
+You can change the input file (default input.txt) at line 470
